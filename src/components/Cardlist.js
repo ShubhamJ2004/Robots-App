@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Card from './Card';
-import { robots } from './robots';
+import { robots } from '../robots';
 class Cardlist extends Component{
     render(){
         const CardArray = robots.map((user, i) => { 
